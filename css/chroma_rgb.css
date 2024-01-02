@@ -1,0 +1,572 @@
+.chroma-rgb span,
+.chroma-rgb-hover:hover span {
+  animation-name: chroma-rgb-keys;
+  animation-duration: 50s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: forwards;
+}
+@keyframes chroma-rgb-keys {
+  0% {
+    color: #a35cd6;
+  }
+  5% {
+    color: #d6665c;
+  }
+  10% {
+    color: #97d65c;
+  }
+  15% {
+    color: #a75cd6;
+  }
+  20% {
+    color: #725cd6;
+  }
+  25% {
+    color: #d65c7e;
+  }
+  30% {
+    color: #5c85d6;
+  }
+  35% {
+    color: #ba5cd6;
+  }
+  40% {
+    color: #c2d65c;
+  }
+  45% {
+    color: #a55cd6;
+  }
+  50% {
+    color: #d6685c;
+  }
+  55% {
+    color: #d65ca3;
+  }
+  60% {
+    color: #5cd68d;
+  }
+  65% {
+    color: #7c5cd6;
+  }
+  70% {
+    color: #d65cd2;
+  }
+  75% {
+    color: #5cd6c8;
+  }
+  80% {
+    color: #d65caf;
+  }
+  85% {
+    color: #97d65c;
+  }
+  90% {
+    color: #a15cd6;
+  }
+  95% {
+    color: #5c8dd6;
+  }
+  100% {
+    color: #5c5ed6;
+  }
+}
+.chroma-rgb span:nth-of-type(1),
+.chroma-rgb-hover:hover span:nth-of-type(1) {
+  animation-delay: -19.8s;
+}
+
+.chroma-rgb span:nth-of-type(2),
+.chroma-rgb-hover:hover span:nth-of-type(2) {
+  animation-delay: -19.6s;
+}
+
+.chroma-rgb span:nth-of-type(3),
+.chroma-rgb-hover:hover span:nth-of-type(3) {
+  animation-delay: -19.4s;
+}
+
+.chroma-rgb span:nth-of-type(4),
+.chroma-rgb-hover:hover span:nth-of-type(4) {
+  animation-delay: -19.2s;
+}
+
+.chroma-rgb span:nth-of-type(5),
+.chroma-rgb-hover:hover span:nth-of-type(5) {
+  animation-delay: -19s;
+}
+
+.chroma-rgb span:nth-of-type(6),
+.chroma-rgb-hover:hover span:nth-of-type(6) {
+  animation-delay: -18.8s;
+}
+
+.chroma-rgb span:nth-of-type(7),
+.chroma-rgb-hover:hover span:nth-of-type(7) {
+  animation-delay: -18.6s;
+}
+
+.chroma-rgb span:nth-of-type(8),
+.chroma-rgb-hover:hover span:nth-of-type(8) {
+  animation-delay: -18.4s;
+}
+
+.chroma-rgb span:nth-of-type(9),
+.chroma-rgb-hover:hover span:nth-of-type(9) {
+  animation-delay: -18.2s;
+}
+
+.chroma-rgb span:nth-of-type(10),
+.chroma-rgb-hover:hover span:nth-of-type(10) {
+  animation-delay: -18s;
+}
+
+.chroma-rgb span:nth-of-type(11),
+.chroma-rgb-hover:hover span:nth-of-type(11) {
+  animation-delay: -17.8s;
+}
+
+.chroma-rgb span:nth-of-type(12),
+.chroma-rgb-hover:hover span:nth-of-type(12) {
+  animation-delay: -17.6s;
+}
+
+.chroma-rgb span:nth-of-type(13),
+.chroma-rgb-hover:hover span:nth-of-type(13) {
+  animation-delay: -17.4s;
+}
+
+.chroma-rgb span:nth-of-type(14),
+.chroma-rgb-hover:hover span:nth-of-type(14) {
+  animation-delay: -17.2s;
+}
+
+.chroma-rgb span:nth-of-type(15),
+.chroma-rgb-hover:hover span:nth-of-type(15) {
+  animation-delay: -17s;
+}
+
+.chroma-rgb span:nth-of-type(16),
+.chroma-rgb-hover:hover span:nth-of-type(16) {
+  animation-delay: -16.8s;
+}
+
+.chroma-rgb span:nth-of-type(17),
+.chroma-rgb-hover:hover span:nth-of-type(17) {
+  animation-delay: -16.6s;
+}
+
+.chroma-rgb span:nth-of-type(18),
+.chroma-rgb-hover:hover span:nth-of-type(18) {
+  animation-delay: -16.4s;
+}
+
+.chroma-rgb span:nth-of-type(19),
+.chroma-rgb-hover:hover span:nth-of-type(19) {
+  animation-delay: -16.2s;
+}
+
+.chroma-rgb span:nth-of-type(20),
+.chroma-rgb-hover:hover span:nth-of-type(20) {
+  animation-delay: -16s;
+}
+
+.chroma-rgb span:nth-of-type(21),
+.chroma-rgb-hover:hover span:nth-of-type(21) {
+  animation-delay: -15.8s;
+}
+
+.chroma-rgb span:nth-of-type(22),
+.chroma-rgb-hover:hover span:nth-of-type(22) {
+  animation-delay: -15.6s;
+}
+
+.chroma-rgb span:nth-of-type(23),
+.chroma-rgb-hover:hover span:nth-of-type(23) {
+  animation-delay: -15.4s;
+}
+
+.chroma-rgb span:nth-of-type(24),
+.chroma-rgb-hover:hover span:nth-of-type(24) {
+  animation-delay: -15.2s;
+}
+
+.chroma-rgb span:nth-of-type(25),
+.chroma-rgb-hover:hover span:nth-of-type(25) {
+  animation-delay: -15s;
+}
+
+.chroma-rgb span:nth-of-type(26),
+.chroma-rgb-hover:hover span:nth-of-type(26) {
+  animation-delay: -14.8s;
+}
+
+.chroma-rgb span:nth-of-type(27),
+.chroma-rgb-hover:hover span:nth-of-type(27) {
+  animation-delay: -14.6s;
+}
+
+.chroma-rgb span:nth-of-type(28),
+.chroma-rgb-hover:hover span:nth-of-type(28) {
+  animation-delay: -14.4s;
+}
+
+.chroma-rgb span:nth-of-type(29),
+.chroma-rgb-hover:hover span:nth-of-type(29) {
+  animation-delay: -14.2s;
+}
+
+.chroma-rgb span:nth-of-type(30),
+.chroma-rgb-hover:hover span:nth-of-type(30) {
+  animation-delay: -14s;
+}
+
+.chroma-rgb span:nth-of-type(31),
+.chroma-rgb-hover:hover span:nth-of-type(31) {
+  animation-delay: -13.8s;
+}
+
+.chroma-rgb span:nth-of-type(32),
+.chroma-rgb-hover:hover span:nth-of-type(32) {
+  animation-delay: -13.6s;
+}
+
+.chroma-rgb span:nth-of-type(33),
+.chroma-rgb-hover:hover span:nth-of-type(33) {
+  animation-delay: -13.4s;
+}
+
+.chroma-rgb span:nth-of-type(34),
+.chroma-rgb-hover:hover span:nth-of-type(34) {
+  animation-delay: -13.2s;
+}
+
+.chroma-rgb span:nth-of-type(35),
+.chroma-rgb-hover:hover span:nth-of-type(35) {
+  animation-delay: -13s;
+}
+
+.chroma-rgb span:nth-of-type(36),
+.chroma-rgb-hover:hover span:nth-of-type(36) {
+  animation-delay: -12.8s;
+}
+
+.chroma-rgb span:nth-of-type(37),
+.chroma-rgb-hover:hover span:nth-of-type(37) {
+  animation-delay: -12.6s;
+}
+
+.chroma-rgb span:nth-of-type(38),
+.chroma-rgb-hover:hover span:nth-of-type(38) {
+  animation-delay: -12.4s;
+}
+
+.chroma-rgb span:nth-of-type(39),
+.chroma-rgb-hover:hover span:nth-of-type(39) {
+  animation-delay: -12.2s;
+}
+
+.chroma-rgb span:nth-of-type(40),
+.chroma-rgb-hover:hover span:nth-of-type(40) {
+  animation-delay: -12s;
+}
+
+.chroma-rgb span:nth-of-type(41),
+.chroma-rgb-hover:hover span:nth-of-type(41) {
+  animation-delay: -11.8s;
+}
+
+.chroma-rgb span:nth-of-type(42),
+.chroma-rgb-hover:hover span:nth-of-type(42) {
+  animation-delay: -11.6s;
+}
+
+.chroma-rgb span:nth-of-type(43),
+.chroma-rgb-hover:hover span:nth-of-type(43) {
+  animation-delay: -11.4s;
+}
+
+.chroma-rgb span:nth-of-type(44),
+.chroma-rgb-hover:hover span:nth-of-type(44) {
+  animation-delay: -11.2s;
+}
+
+.chroma-rgb span:nth-of-type(45),
+.chroma-rgb-hover:hover span:nth-of-type(45) {
+  animation-delay: -11s;
+}
+
+.chroma-rgb span:nth-of-type(46),
+.chroma-rgb-hover:hover span:nth-of-type(46) {
+  animation-delay: -10.8s;
+}
+
+.chroma-rgb span:nth-of-type(47),
+.chroma-rgb-hover:hover span:nth-of-type(47) {
+  animation-delay: -10.6s;
+}
+
+.chroma-rgb span:nth-of-type(48),
+.chroma-rgb-hover:hover span:nth-of-type(48) {
+  animation-delay: -10.4s;
+}
+
+.chroma-rgb span:nth-of-type(49),
+.chroma-rgb-hover:hover span:nth-of-type(49) {
+  animation-delay: -10.2s;
+}
+
+.chroma-rgb span:nth-of-type(50),
+.chroma-rgb-hover:hover span:nth-of-type(50) {
+  animation-delay: -10s;
+}
+
+.chroma-rgb span:nth-of-type(51),
+.chroma-rgb-hover:hover span:nth-of-type(51) {
+  animation-delay: -9.8s;
+}
+
+.chroma-rgb span:nth-of-type(52),
+.chroma-rgb-hover:hover span:nth-of-type(52) {
+  animation-delay: -9.6s;
+}
+
+.chroma-rgb span:nth-of-type(53),
+.chroma-rgb-hover:hover span:nth-of-type(53) {
+  animation-delay: -9.4s;
+}
+
+.chroma-rgb span:nth-of-type(54),
+.chroma-rgb-hover:hover span:nth-of-type(54) {
+  animation-delay: -9.2s;
+}
+
+.chroma-rgb span:nth-of-type(55),
+.chroma-rgb-hover:hover span:nth-of-type(55) {
+  animation-delay: -9s;
+}
+
+.chroma-rgb span:nth-of-type(56),
+.chroma-rgb-hover:hover span:nth-of-type(56) {
+  animation-delay: -8.8s;
+}
+
+.chroma-rgb span:nth-of-type(57),
+.chroma-rgb-hover:hover span:nth-of-type(57) {
+  animation-delay: -8.6s;
+}
+
+.chroma-rgb span:nth-of-type(58),
+.chroma-rgb-hover:hover span:nth-of-type(58) {
+  animation-delay: -8.4s;
+}
+
+.chroma-rgb span:nth-of-type(59),
+.chroma-rgb-hover:hover span:nth-of-type(59) {
+  animation-delay: -8.2s;
+}
+
+.chroma-rgb span:nth-of-type(60),
+.chroma-rgb-hover:hover span:nth-of-type(60) {
+  animation-delay: -8s;
+}
+
+.chroma-rgb span:nth-of-type(61),
+.chroma-rgb-hover:hover span:nth-of-type(61) {
+  animation-delay: -7.8s;
+}
+
+.chroma-rgb span:nth-of-type(62),
+.chroma-rgb-hover:hover span:nth-of-type(62) {
+  animation-delay: -7.6s;
+}
+
+.chroma-rgb span:nth-of-type(63),
+.chroma-rgb-hover:hover span:nth-of-type(63) {
+  animation-delay: -7.4s;
+}
+
+.chroma-rgb span:nth-of-type(64),
+.chroma-rgb-hover:hover span:nth-of-type(64) {
+  animation-delay: -7.2s;
+}
+
+.chroma-rgb span:nth-of-type(65),
+.chroma-rgb-hover:hover span:nth-of-type(65) {
+  animation-delay: -7s;
+}
+
+.chroma-rgb span:nth-of-type(66),
+.chroma-rgb-hover:hover span:nth-of-type(66) {
+  animation-delay: -6.8s;
+}
+
+.chroma-rgb span:nth-of-type(67),
+.chroma-rgb-hover:hover span:nth-of-type(67) {
+  animation-delay: -6.6s;
+}
+
+.chroma-rgb span:nth-of-type(68),
+.chroma-rgb-hover:hover span:nth-of-type(68) {
+  animation-delay: -6.4s;
+}
+
+.chroma-rgb span:nth-of-type(69),
+.chroma-rgb-hover:hover span:nth-of-type(69) {
+  animation-delay: -6.2s;
+}
+
+.chroma-rgb span:nth-of-type(70),
+.chroma-rgb-hover:hover span:nth-of-type(70) {
+  animation-delay: -6s;
+}
+
+.chroma-rgb span:nth-of-type(71),
+.chroma-rgb-hover:hover span:nth-of-type(71) {
+  animation-delay: -5.8s;
+}
+
+.chroma-rgb span:nth-of-type(72),
+.chroma-rgb-hover:hover span:nth-of-type(72) {
+  animation-delay: -5.6s;
+}
+
+.chroma-rgb span:nth-of-type(73),
+.chroma-rgb-hover:hover span:nth-of-type(73) {
+  animation-delay: -5.4s;
+}
+
+.chroma-rgb span:nth-of-type(74),
+.chroma-rgb-hover:hover span:nth-of-type(74) {
+  animation-delay: -5.2s;
+}
+
+.chroma-rgb span:nth-of-type(75),
+.chroma-rgb-hover:hover span:nth-of-type(75) {
+  animation-delay: -5s;
+}
+
+.chroma-rgb span:nth-of-type(76),
+.chroma-rgb-hover:hover span:nth-of-type(76) {
+  animation-delay: -4.8s;
+}
+
+.chroma-rgb span:nth-of-type(77),
+.chroma-rgb-hover:hover span:nth-of-type(77) {
+  animation-delay: -4.6s;
+}
+
+.chroma-rgb span:nth-of-type(78),
+.chroma-rgb-hover:hover span:nth-of-type(78) {
+  animation-delay: -4.4s;
+}
+
+.chroma-rgb span:nth-of-type(79),
+.chroma-rgb-hover:hover span:nth-of-type(79) {
+  animation-delay: -4.2s;
+}
+
+.chroma-rgb span:nth-of-type(80),
+.chroma-rgb-hover:hover span:nth-of-type(80) {
+  animation-delay: -4s;
+}
+
+.chroma-rgb span:nth-of-type(81),
+.chroma-rgb-hover:hover span:nth-of-type(81) {
+  animation-delay: -3.8s;
+}
+
+.chroma-rgb span:nth-of-type(82),
+.chroma-rgb-hover:hover span:nth-of-type(82) {
+  animation-delay: -3.6s;
+}
+
+.chroma-rgb span:nth-of-type(83),
+.chroma-rgb-hover:hover span:nth-of-type(83) {
+  animation-delay: -3.4s;
+}
+
+.chroma-rgb span:nth-of-type(84),
+.chroma-rgb-hover:hover span:nth-of-type(84) {
+  animation-delay: -3.2s;
+}
+
+.chroma-rgb span:nth-of-type(85),
+.chroma-rgb-hover:hover span:nth-of-type(85) {
+  animation-delay: -3s;
+}
+
+.chroma-rgb span:nth-of-type(86),
+.chroma-rgb-hover:hover span:nth-of-type(86) {
+  animation-delay: -2.8s;
+}
+
+.chroma-rgb span:nth-of-type(87),
+.chroma-rgb-hover:hover span:nth-of-type(87) {
+  animation-delay: -2.6s;
+}
+
+.chroma-rgb span:nth-of-type(88),
+.chroma-rgb-hover:hover span:nth-of-type(88) {
+  animation-delay: -2.4s;
+}
+
+.chroma-rgb span:nth-of-type(89),
+.chroma-rgb-hover:hover span:nth-of-type(89) {
+  animation-delay: -2.2s;
+}
+
+.chroma-rgb span:nth-of-type(90),
+.chroma-rgb-hover:hover span:nth-of-type(90) {
+  animation-delay: -2s;
+}
+
+.chroma-rgb span:nth-of-type(91),
+.chroma-rgb-hover:hover span:nth-of-type(91) {
+  animation-delay: -1.8s;
+}
+
+.chroma-rgb span:nth-of-type(92),
+.chroma-rgb-hover:hover span:nth-of-type(92) {
+  animation-delay: -1.6s;
+}
+
+.chroma-rgb span:nth-of-type(93),
+.chroma-rgb-hover:hover span:nth-of-type(93) {
+  animation-delay: -1.4s;
+}
+
+.chroma-rgb span:nth-of-type(94),
+.chroma-rgb-hover:hover span:nth-of-type(94) {
+  animation-delay: -1.2s;
+}
+
+.chroma-rgb span:nth-of-type(95),
+.chroma-rgb-hover:hover span:nth-of-type(95) {
+  animation-delay: -1s;
+}
+
+.chroma-rgb span:nth-of-type(96),
+.chroma-rgb-hover:hover span:nth-of-type(96) {
+  animation-delay: -0.8s;
+}
+
+.chroma-rgb span:nth-of-type(97),
+.chroma-rgb-hover:hover span:nth-of-type(97) {
+  animation-delay: -0.6s;
+}
+
+.chroma-rgb span:nth-of-type(98),
+.chroma-rgb-hover:hover span:nth-of-type(98) {
+  animation-delay: -0.4s;
+}
+
+.chroma-rgb span:nth-of-type(99),
+.chroma-rgb-hover:hover span:nth-of-type(99) {
+  animation-delay: -0.2s;
+}
+
+.chroma-rgb span:nth-of-type(100),
+.chroma-rgb-hover:hover span:nth-of-type(100) {
+  animation-delay: 0s;
+}/*# sourceMappingURL=chroma_rgb.css.map */

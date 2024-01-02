@@ -94,4 +94,11 @@
 }
 .home-desc span:nth-child(5):hover:after {
   content: "Direction";
+}
+
+.rgb-txt {
+  background: linear-gradient(92.09deg, var(--chroma-color-left) 0%, var(--chroma-color-right) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }/*# sourceMappingURL=index.css.map */
