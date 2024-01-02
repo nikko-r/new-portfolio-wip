@@ -1,8 +1,10 @@
+@charset "UTF-8";
 .home-image-fader {
   overflow: hidden;
   width: 100vw;
   min-height: 80vh;
-  position: relative;
+  position: absolute;
+  z-index: -1;
 }
 
 .home-image-fader .fade {
@@ -14,6 +16,7 @@
   background-size: cover;
   background-position: center;
   animation: home-image-fader-a 20s infinite;
+  filter: brightness(80%);
 }
 
 .home-image-fader .fade:nth-child(1) {
@@ -57,4 +60,38 @@
     animation-timing-function: step-end;
     z-index: -1;
   }
+}
+.mid-section {
+  min-height: 60vh;
+}
+
+.home-desc {
+  display: flex;
+}
+.home-desc span {
+  font-size: 1.8rem;
+}
+.home-desc span:nth-child(1):after {
+  content: "UI ";
+}
+.home-desc span:nth-child(1):hover:after {
+  content: "UX";
+}
+.home-desc span:nth-child(2):after {
+  content: "Designer";
+}
+.home-desc span:nth-child(2):hover:after {
+  content: "Developer";
+}
+.home-desc span:nth-child(4):after {
+  content: "Digital";
+}
+.home-desc span:nth-child(4):hover:after {
+  content: "Creative";
+}
+.home-desc span:nth-child(5):after {
+  content: "Artist";
+}
+.home-desc span:nth-child(5):hover:after {
+  content: "Direction";
 }/*# sourceMappingURL=index.css.map */
