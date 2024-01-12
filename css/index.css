@@ -61,10 +61,6 @@
     z-index: -1;
   }
 }
-.mid-section {
-  min-height: 60vh;
-}
-
 .home-desc {
   display: flex;
 }
@@ -101,4 +97,8 @@
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.mid-section {
+  align-items: center;
 }/*# sourceMappingURL=index.css.map */

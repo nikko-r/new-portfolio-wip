@@ -9,31 +9,44 @@ a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+}
+
 body {
   background-color: #0D0D0D;
   display: flex;
   justify-content: center;
+  width: 100vw;
+  height: 100vh;
 }
 
 .contents {
   width: 100%;
   max-width: 1920px;
-  margin: calc(4% + 0.5rem);
+  margin: calc(5% + 0.5rem);
+  margin-top: 0;
 }
 
-#name {
-  margin-top: 4vh;
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 30vh;
+  margin-bottom: 5vh;
 }
-#name a {
+.header a {
   font-size: 1.4rem;
-  font-weight: 700 !important;
+  font-weight: 700;
 }
 
 .mid-section {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-start;
+  align-items: flex-start;
   flex-direction: row;
+  flex-wrap: wrap;
 }
 .mid-section div {
   width: 50%;
@@ -44,32 +57,38 @@ nav {
   flex-direction: column;
 }
 nav span {
-  margin: 1.2rem 0;
+  margin-bottom: 2.4rem;
 }
 nav span a {
   font-size: 1.3rem;
   transition: all 0.5s ease;
 }
-nav span a:hover {
-  padding-left: 10px;
-  transition-duration: 0.2s;
-  transition: all 1s ease;
-}
-nav span .a-selected {
-  padding-left: 10px;
-}
 
+@media only screen and (min-width: 599px) {
+  nav span a:hover {
+    padding-left: 10px;
+    transition-duration: 0.2s;
+    transition: all 1s ease;
+  }
+  nav span .a-selected {
+    padding-left: 10px;
+  }
+}
 @media only screen and (max-width: 600px) {
-  nav {
-    flex-direction: row;
-    justify-content: space-between;
+  .header {
+    height: 10vh;
   }
   .mid-section {
+    display: flex;
     flex-direction: column;
     align-items: normal;
     justify-content: flex-start;
   }
   .mid-section div {
     width: 100%;
+  }
+  nav {
+    flex-direction: row;
+    justify-content: space-between;
   }
 }/*# sourceMappingURL=styles.css.map */

@@ -9,30 +9,43 @@ a{
     text-decoration: none;
 }
 
+img{
+    max-width: 100%;
+}
+
 body{
     background-color: #0D0D0D;
     display: flex;
     justify-content: center;
+    width: 100vw;
+    height: 100vh;
 }
 
 .contents{
     width: 100%;
     max-width: 1920px;
-    margin: calc(4% + 0.5rem);
+    margin: calc(5% + 0.5rem);
+    margin-top: 0;
 }
-#name{
-    margin-top: 4vh;
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 30vh;
+    margin-bottom: 5vh;
     a{
         font-size: 1.4rem;
-        font-weight: 700 !important;
+        font-weight: 700;
     }
 }
+
 .mid-section{
     display: flex;
-    justify-content: center;
-    align-items: center;
-
+    justify-content: flex-start;
+    align-items: flex-start;
     flex-direction: row;
+    flex-wrap: wrap;
     div{
         width: 50%;
     }
@@ -42,43 +55,37 @@ nav{
     display: flex;
     flex-direction: column;
     span{
-        margin: 1.2rem 0;
+        // margin: 1.2rem 0;
+        margin-bottom: 2.4rem;
         a{
             font-size: 1.3rem;
             transition: all 0.5s ease;
         }
-        a:hover {
-            padding-left: 10px;
-            transition-duration: 0.2s;
-            transition: all 1s ease;
-        }
-        .a-selected{
-            padding-left: 10px;
+    }
+}
+
+@media only screen and (min-width: 599px) {
+    nav{
+        span{
+            a:hover {
+                padding-left: 10px;
+                transition-duration: 0.2s;
+                transition: all 1s ease;
+            }
+            .a-selected{
+                padding-left: 10px;
+            }
         }
     }
-    //     div{
-    //         display: flex;
-    //         flex-wrap: wrap;
-    //         justify-content: space-between;
-    //         width: 40%;
-    //     }
-
 }
-// @media only screen and (min-width: 600px) {
-//     nav{
-//         flex-direction: column;
-//     }
-//     .mid-section{
-//         flex-direction: row;
-//     }
-//   }
 
-  @media only screen and (max-width: 600px) {
-    nav{
-        flex-direction: row;
-        justify-content: space-between;
+
+@media only screen and (max-width: 600px) {
+    .header{
+        height: 10vh;
     }
     .mid-section{
+        display: flex;
         flex-direction: column;
         align-items: normal;
         justify-content: flex-start;
@@ -86,6 +93,11 @@ nav{
             width: 100%;
         }
     }
-  }
+    nav{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+}
 
 

@@ -1,0 +1,55 @@
+#side-nav {
+  width: 35%;
+}
+
+#about {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 65%;
+}
+#about #about-text {
+  font-size: 1.3rem;
+}
+#about #about-portrait {
+  width: 40%;
+  height: -moz-fit-content;
+  height: fit-content;
+  max-width: 30vw;
+}
+
+@media only screen and (min-width: 1000px) {
+  #about {
+    justify-content: space-between;
+  }
+  #about #about-text {
+    width: 50%;
+    padding-right: 5%;
+  }
+}
+@media only screen and (min-width: 601px) and (max-width: 999px) {
+  #about {
+    flex-direction: column;
+  }
+  #about #about-text {
+    width: 100%;
+  }
+  #about #about-portrait {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px) {
+  #side-nav {
+    width: 100%;
+  }
+  #about {
+    width: 100%;
+    flex-direction: column;
+  }
+  #about #about-portrait {
+    width: 100%;
+  }
+  .mid-section div {
+    width: 100%;
+  }
+}/*# sourceMappingURL=about.css.map */
