@@ -52,4 +52,24 @@
   .mid-section div {
     width: 100%;
   }
+}
+.social-url {
+  display: flex;
+  align-items: center;
+  color: rgb(44, 44, 44);
+  font-size: 1rem;
+  font-weight: 600;
+}
+.social-url img {
+  height: 1rem;
+  margin-right: 8px;
+}
+.social-url a {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 8px;
+}
+.social-url a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 3px;
 }/*# sourceMappingURL=about.css.map */
