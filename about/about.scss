@@ -18,12 +18,13 @@
     width: 65%;
     
     #about-text{
-        font-size: 1.3rem;
+        // font-size: 1.3rem;
+        font-size: clamp(1rem, 1.7vw, 1.3rem);;
     }
     #about-portrait{
         width: 40%;
         height: fit-content;
-        max-width: 30vw;
+        // max-width: 30vw;
     }
 
 }
@@ -72,18 +73,22 @@
     color: rgb(44, 44, 44);
     font-size: 1rem;
     font-weight: 600;
+    height: 1rem;
+    
     img{
-        height: 1rem;
+        height: 100%;
         margin-right: 8px;
     }
     a{
+        padding-top: 3px;
         font-size: 1rem;
         font-weight: 600;
         margin-left: 8px;
-
+        border-bottom: 3px solid transparent;
     }
     a:hover{
-        text-decoration: underline;
+        // text-decoration: underline;
         text-decoration-thickness: 3px;
+        border-bottom: 3px solid currentColor;
     }
 }

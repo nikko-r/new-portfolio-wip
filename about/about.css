@@ -9,13 +9,12 @@
   width: 65%;
 }
 #about #about-text {
-  font-size: 1.3rem;
+  font-size: clamp(1rem, 1.7vw, 1.3rem);
 }
 #about #about-portrait {
   width: 40%;
   height: -moz-fit-content;
   height: fit-content;
-  max-width: 30vw;
 }
 
 @media only screen and (min-width: 1000px) {
@@ -59,17 +58,20 @@
   color: rgb(44, 44, 44);
   font-size: 1rem;
   font-weight: 600;
+  height: 1rem;
 }
 .social-url img {
-  height: 1rem;
+  height: 100%;
   margin-right: 8px;
 }
 .social-url a {
+  padding-top: 3px;
   font-size: 1rem;
   font-weight: 600;
   margin-left: 8px;
+  border-bottom: 3px solid transparent;
 }
 .social-url a:hover {
-  text-decoration: underline;
   text-decoration-thickness: 3px;
+  border-bottom: 3px solid currentColor;
 }/*# sourceMappingURL=about.css.map */
