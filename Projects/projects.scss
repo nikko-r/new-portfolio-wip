@@ -1,0 +1,21 @@
+h2{
+    font-weight: 600;
+}
+
+.project-category-urls{
+    width: 100% !important;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    a{
+        margin-right: 16px;
+        font-weight: 600;
+        color: #505050;
+    }
+    a:hover{
+        color: white;
+    }
+    .a-selected{
+        color: white;
+    }
+}

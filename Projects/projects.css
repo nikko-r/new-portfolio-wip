@@ -1,0 +1,21 @@
+h2 {
+  font-weight: 600;
+}
+
+.project-category-urls {
+  width: 100% !important;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.project-category-urls a {
+  margin-right: 16px;
+  font-weight: 600;
+  color: #505050;
+}
+.project-category-urls a:hover {
+  color: white;
+}
+.project-category-urls .a-selected {
+  color: white;
+}/*# sourceMappingURL=projects.css.map */
