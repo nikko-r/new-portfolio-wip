@@ -8,14 +8,35 @@ h2 {
   flex-direction: row;
   flex-wrap: wrap;
 }
-.project-category-urls a {
+.project-category-urls i {
   margin-right: 16px;
   font-weight: 600;
   color: #505050;
 }
-.project-category-urls a:hover {
+.project-category-urls i:hover {
   color: white;
 }
-.project-category-urls .a-selected {
+.project-category-urls i[selected] {
   color: white;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.project-card {
+  width: 300px;
+  height: 200px;
+}
+.project-card:hover {
+  background-color: white;
+}
+.project-card:hover h1 {
+  color: black;
+}
+.project-card:hover p {
+  color: black;
 }/*# sourceMappingURL=projects.css.map */

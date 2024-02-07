@@ -64,8 +64,9 @@
 .home-desc {
   display: flex;
 }
-.home-desc span {
-  font-size: 1.8rem;
+.home-desc span, .home-desc h2 {
+  font-size: clamp(1.5rem, 5vw, 2.5rem);
+  font-weight: 400;
 }
 .home-desc span:nth-child(1):after {
   content: "UI ";
@@ -101,4 +102,19 @@
 
 .mid-section {
   align-items: center;
+}
+
+body {
+  animation: fadeInAnimation ease 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=index.css.map */
