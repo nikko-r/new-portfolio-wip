@@ -2,7 +2,7 @@
 .home-image-fader {
   overflow: hidden;
   width: 100vw;
-  min-height: 80vh;
+  min-height: 100vh;
   position: absolute;
   z-index: -1;
 }
@@ -20,7 +20,7 @@
 }
 
 .home-image-fader .fade:nth-child(1) {
-  background-image: url("https://images.unsplash.com/photo-1595356700395-6f14b5c1f33f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
+  background-image: url("/images/homebg1.avif");
   animation-delay: 0s;
 }
 
@@ -40,7 +40,7 @@
 }
 
 .home-image-fader .fade:nth-child(5) {
-  background-image: url("https://images.unsplash.com/photo-1583161178154-c362b3459d29?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
+  background-image: url("/images/homebg2.avif");
   animation-delay: -16s;
 }
 
@@ -65,8 +65,8 @@
   display: flex;
 }
 .home-desc span, .home-desc h2 {
-  font-size: clamp(1.5rem, 5vw, 2.5rem);
-  font-weight: 400;
+  font-size: clamp(2.2rem, 6vw, 2.5rem);
+  font-weight: 200;
 }
 .home-desc span:nth-child(1):after {
   content: "UI ";
@@ -93,28 +93,13 @@
   content: "Direction";
 }
 
-.rgb-txt {
-  background: linear-gradient(92.09deg, var(--chroma-color-left) 0%, var(--chroma-color-right) 100%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
 .mid-section {
   align-items: center;
 }
 
-body {
-  animation: fadeInAnimation ease 0.5s;
-  animation-iteration-count: 1;
-  animation-fill-mode: forwards;
-}
-
-@keyframes fadeInAnimation {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
+@media only screen and (max-width: 600px) {
+  .home-desc span, .home-desc h2 {
+    margin-top: 3rem;
+    font-size: 2rem;
   }
 }/*# sourceMappingURL=index.css.map */

@@ -11,6 +11,10 @@
 #about #about-text {
   font-size: clamp(1rem, 1.7vw, 1.3rem);
 }
+#about #about-text h1 {
+  font-weight: 300;
+  font-size: 2.2rem;
+}
 #about #about-portrait {
   width: 40%;
   height: -moz-fit-content;

@@ -36,7 +36,7 @@ function setProjectData($data, $parent) {
             div.className = "project-card"
 
             const img = document.createElement("img")
-            img.src = entry.url
+            img.src = entry.thumbnail
             img.alt = entry.title
             img.className = "project-thumbnail"
             div.appendChild(img)

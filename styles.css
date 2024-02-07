@@ -28,7 +28,7 @@ img {
 }
 
 body {
-  background-color: #0D0D0D;
+  background-color: #111111;
   display: flex;
   justify-content: center;
   width: 100vw;
@@ -52,7 +52,7 @@ body {
 }
 .header a {
   font-size: 1.4rem;
-  font-weight: 700;
+  font-weight: 500;
 }
 
 .mid-section {
@@ -74,8 +74,16 @@ nav span {
   margin-bottom: 2.4rem;
 }
 nav span a {
-  font-size: 1.3rem;
+  font-size: clamp(1.2rem, 5vw, 1.5rem);
   transition: all 0.5s ease;
+}
+nav span a:hover {
+  color: #C040E0;
+  transition-duration: 0.1s;
+  transition: all 1s ease;
+}
+nav span .a-selected {
+  color: #C040E0;
 }
 
 @media only screen and (min-width: 599px) {
@@ -105,4 +113,31 @@ nav span a {
     flex-direction: row;
     justify-content: space-between;
   }
+}
+body {
+  animation: fadeInAnimation ease 0.5s;
+  animation-iteration-count: 1;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.rgb-txt {
+  background: linear-gradient(92.09deg, var(--chroma-color-left) 0%, var(--chroma-color-right) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.rgb-txt-h:hover {
+  background: linear-gradient(92.09deg, var(--chroma-color-left) 0%, var(--chroma-color-right) 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }/*# sourceMappingURL=styles.css.map */

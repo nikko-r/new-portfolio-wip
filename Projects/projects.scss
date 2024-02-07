@@ -1,5 +1,13 @@
+.mid-section{
+    margin-bottom: 5rem;
+}
+
+h1{
+    font-weight: 300;
+    font-size: 2.2rem;
+}
 h2{
-    font-weight: 600;
+    font-weight: 300;
 }
 
 .project-category-urls{
@@ -7,10 +15,12 @@ h2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    margin-top: 2rem;
     i{
         margin-right: 16px;
         font-weight: 600;
         color: #505050;
+        cursor: pointer;
     }
     i:hover{
         color: white;
@@ -21,17 +31,21 @@ h2{
 }
 
 
+body{
+    overflow-x: hidden;
+}
 
 .projects-container{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 .project-card{
         width: 300px;
         height: 200px;
-        
+        max-width:84vw;
+        padding: 0.1rem;
     img{
 
     }
