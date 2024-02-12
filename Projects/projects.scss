@@ -2,13 +2,13 @@
     margin-bottom: 5rem;
 }
 
-h1{
-    font-weight: 300;
-    font-size: 2.2rem;
-}
-h2{
-    font-weight: 300;
-}
+// h1{
+//     font-weight: 300;
+//     font-size: 2.2rem;
+// }
+// h2{
+//     font-weight: 300;
+// }
 
 .project-category-urls{
     width: 100% !important;
@@ -46,26 +46,30 @@ body{
         height: 200px;
         max-width:84vw;
         padding: 0.1rem;
-    img{
+    .project-thumbnail{
+        height: 80%;
+        width: 100%;
+        background-size: cover;
+        background-position: center;
+    }
+    .project-title{
 
     }
-    h1{
-
-    }
-    p{
-
+    .project-date{
+        font-size: 0.6em;
+        color: #505050;
     }
 }
 
 .project-card:hover{
     background-color: white;
-    img{
+    cursor: pointer;
+    .project-thumbnail{
+    }
 
-    }
-    h1{
+    .project-title{
         color: black;
     }
-    p{
-        color: black;
+    .project-date{
     }
 }

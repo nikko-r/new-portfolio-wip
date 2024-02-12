@@ -34,6 +34,7 @@ function setProjectData($data, $parent) {
         for (const entry of $data) {
             const div = document.createElement("div");
             div.className = "project-card"
+            div.onclick = () => entry?.url ? location.href = entry?.url : null
 
             const img = document.createElement("img")
             img.src = entry.thumbnail
@@ -41,15 +42,22 @@ function setProjectData($data, $parent) {
             img.className = "project-thumbnail"
             div.appendChild(img)
 
-            const h1 = document.createElement("h1")
-            h1.className = "card__heading"
-            h1.innerText = entry.title
-            div.appendChild(h1)
+            // const imgDiv = document.createElement("div")
+            // imgDiv.src = entry.thumbnail
+            // img.alt = entry.title
+            // imgDiv.className = "project-thumbnail"
+            // imgDiv.style = `background-image: url(${entry.thumbnail});`
+            // div.appendChild(imgDiv)
 
-            const p = document.createElement('p')
-            p.className = "card__text"
-            p.innerText = entry.date
-            div.appendChild(p)
+            const projectTitle = document.createElement("h2")
+            projectTitle.className = "project-title"
+            projectTitle.innerText = entry.title
+            div.appendChild(projectTitle)
+
+            const projectDate = document.createElement('p')
+            projectDate.className = "project-date"
+            projectDate.innerText = entry.date
+            div.appendChild(projectDate)
 
             div.id = `project_${entry.id}`
             element.appendChild(div)
