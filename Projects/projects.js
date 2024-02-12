@@ -99,7 +99,7 @@ window.addEventListener('popstate', () => {
 })
 
 
-require('./project_data.json').then(async resp => await resp.json()).then($data => {
+require('/Projects/project_data.json').then(async resp => await resp.json()).then($data => {
     setProjectData($data, ".projects-container")
     Router.setDefault("All", ".project-category-urls")
     Router.setData($data);

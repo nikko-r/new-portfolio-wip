@@ -28,7 +28,7 @@ img {
 }
 
 body {
-  background-color: #111111;
+  background-color: #0D0D0D;
   display: flex;
   justify-content: center;
   width: 100vw;
@@ -140,4 +140,43 @@ body {
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.arrow-down {
+  animation-name: arrow-down;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+@keyframes arrow-down {
+  20% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(10px);
+    -webkit-transform: translateY(10px);
+  }
+  65% {
+    opacity: 1;
+    transform: translateY(0px);
+    -webkit-transform: translateY(0px);
+  }
+  75% {
+    opacity: 1;
+  }
 }/*# sourceMappingURL=styles.css.map */
