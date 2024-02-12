@@ -7,6 +7,11 @@
   font-weight: 350;
 }
 
+*,
+html {
+  scroll-behavior: smooth !important;
+}
+
 a {
   text-decoration: none;
 }

@@ -8,11 +8,16 @@
     font-weight: 350;
 }
 
-a{
+*,
+html {
+    scroll-behavior: smooth !important;
+}
+
+a {
     text-decoration: none;
 }
 
-.logo{
+.logo {
     height: clamp(1.5rem, 3vw, 5rem);
     pointer-events: none;
     user-select: none;
@@ -24,12 +29,12 @@ a{
     -ms-user-select: none;
 }
 
-img{
+img {
     max-width: 100%;
 }
 
 
-body{
+body {
     background-color: #0D0D0D;
     display: flex;
     justify-content: center;
@@ -37,54 +42,61 @@ body{
     height: 100vh;
 }
 
-.contents{
+.contents {
     width: 100%;
     max-width: 1920px;
     margin: calc(5% + 0.5rem);
     margin-top: 0;
 }
-.header{
+
+.header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     height: 30vh;
     margin-bottom: 5vh;
-    a{
+
+    a {
         font-size: 1.4rem;
         font-weight: 500;
     }
 }
 
-.mid-section{
+.mid-section {
     display: flex;
     justify-content: flex-start;
     align-items: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
-    div{
+
+    div {
         width: 50%;
     }
 }
 
-nav{
+nav {
     display: flex;
     flex-direction: column;
-    span{
+
+    span {
         // margin: 1.2rem 0;
         margin-bottom: 2.4rem;
-        a{
+
+        a {
             font-size: clamp(1.2rem, 5vw, 1.5rem);
             // font-size: 1.3rem;
             // letter-spacing:-1px;
             transition: all 0.5s ease;
         }
+
         a:hover {
             color: #C040E0;
             transition-duration: 0.1s;
             transition: all 1s ease;
         }
-        .a-selected{
+
+        .a-selected {
             color: #C040E0;
         }
     }
@@ -94,14 +106,15 @@ nav{
 
 
 @media only screen and (min-width: 599px) {
-    nav{
-        span{
+    nav {
+        span {
             a:hover {
                 padding-left: 10px;
                 transition-duration: 0.2s;
                 transition: all 1s ease;
             }
-            .a-selected{
+
+            .a-selected {
                 padding-left: 10px;
             }
         }
@@ -110,19 +123,22 @@ nav{
 
 
 @media only screen and (max-width: 600px) {
-    .header{
+    .header {
         height: 10vh;
     }
-    .mid-section{
+
+    .mid-section {
         display: flex;
         flex-direction: column;
         align-items: normal;
         justify-content: flex-start;
-        div{
+
+        div {
             width: 100%;
         }
     }
-    nav{
+
+    nav {
         flex-direction: row;
         justify-content: space-between;
     }
@@ -136,25 +152,26 @@ body {
     animation-iteration-count: 1;
     animation-fill-mode: forwards;
 }
- 
+
 @keyframes fadeInAnimation {
     0% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
-     }
+    }
 }
 
 
-.rgb-txt{
+.rgb-txt {
     background: linear-gradient(92.09deg, var(--chroma-color-left) 0%, var(--chroma-color-right) 100%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
-.rgb-txt-h:hover{
+.rgb-txt-h:hover {
     background: linear-gradient(92.09deg, var(--chroma-color-left) 0%, var(--chroma-color-right) 100%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -167,7 +184,7 @@ body {
     display: block;
     margin-left: auto;
     margin-right: auto;
-  }
+}
 
 .arrow-down {
     animation-name: arrow-down;
@@ -175,30 +192,34 @@ body {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
     width: max-content;
-  }
+}
 
 
 
-  @keyframes arrow-down {
+@keyframes arrow-down {
     20% {
-		opacity: 1;
-	}
-	45%  {
         opacity: 1;
-		transform: translateY(0px);
-		-webkit-transform: translateY(0px);
-	}
-	80%  {
+    }
+
+    45% {
         opacity: 1;
-		transform: translateY(10px);
-		-webkit-transform: translateY(10px);
-	}
-	65%  {
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+    }
+
+    80% {
         opacity: 1;
-		transform: translateY(0px);
-		-webkit-transform: translateY(0px);
-	}
+        transform: translateY(10px);
+        -webkit-transform: translateY(10px);
+    }
+
+    65% {
+        opacity: 1;
+        transform: translateY(0px);
+        -webkit-transform: translateY(0px);
+    }
+
     75% {
-		opacity: 1;
-	}
+        opacity: 1;
+    }
 }

@@ -56,7 +56,4 @@ body {
 }
 .project-card:hover .project-title {
   color: black;
-}
-#proj-container {
-  scroll-behavior: smooth;
 }/*# sourceMappingURL=projects.css.map */
