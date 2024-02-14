@@ -25,17 +25,17 @@
 }
 
 .home-image-fader .fade:nth-child(2) {
-  background-image: url("https://images.unsplash.com/photo-1591019052241-e4d95a5dc3fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
+  background-image: url("/images/homebg1.avif");
   animation-delay: -4s;
 }
 
 .home-image-fader .fade:nth-child(3) {
-  background-image: url("https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
+  background-image: url("/images/homebg2.avif");
   animation-delay: -8s;
 }
 
 .home-image-fader .fade:nth-child(4) {
-  background-image: url("https://images.unsplash.com/photo-1517430554953-a5ba4678fe85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80");
+  background-image: url("/images/homebg1.avif");
   animation-delay: -12s;
 }
 
@@ -64,7 +64,8 @@
 .home-desc {
   display: flex;
 }
-.home-desc span, .home-desc h2 {
+.home-desc span,
+.home-desc h2 {
   font-size: clamp(2.2rem, 6vw, 2.5rem);
   font-weight: 200;
 }
@@ -98,7 +99,8 @@
 }
 
 @media only screen and (max-width: 600px) {
-  .home-desc span, .home-desc h2 {
+  .home-desc span,
+  .home-desc h2 {
     margin-top: 3rem;
     font-size: 2rem;
   }

@@ -4,9 +4,9 @@
     min-height: 100vh;
     position: absolute;
     z-index: -1;
-   }
-    
-   .home-image-fader .fade {
+}
+
+.home-image-fader .fade {
     position: absolute;
     top: 0;
     left: 0;
@@ -16,66 +16,75 @@
     background-position: center;
     animation: home-image-fader-a 20s infinite;
     filter: brightness(80%);
-   }
-    
-   .home-image-fader .fade:nth-child(1) {
-      background-image: url('/images/homebg1.avif');
-      animation-delay: 0s;
-   }
-   
-   .home-image-fader .fade:nth-child(2) {
-      background-image: url('https://images.unsplash.com/photo-1591019052241-e4d95a5dc3fc?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80');
-      animation-delay: -4s;
-   }
-   
-   .home-image-fader .fade:nth-child(3) {
-      background-image: url('https://images.unsplash.com/photo-1543373014-cfe4f4bc1cdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80');
-      animation-delay: -8s;
-   }
-   
-   .home-image-fader .fade:nth-child(4) {
-      background-image: url('https://images.unsplash.com/photo-1517430554953-a5ba4678fe85?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1000&q=80');
-      animation-delay: -12s;
-   }
-   
-   .home-image-fader .fade:nth-child(5) {
-      background-image: url('/images/homebg2.avif');
-      animation-delay: -16s;
-   }
-   
-   
-   @keyframes home-image-fader-a {
-     0%, 15%, 100% {
-       opacity: 1;
-       animation-timing-function: ease;
-       z-index: 0;
-     }
-     20% {
-       opacity: 0;
-       animation-timing-function: step-end;
-       z-index: 0;
-     }
-     95% {
-       opacity: 1;
-       animation-timing-function: step-end;
-       z-index: -1;
-     }
-   }
+}
+
+.home-image-fader .fade:nth-child(1) {
+    background-image: url('/images/homebg1.avif');
+    animation-delay: 0s;
+}
+
+.home-image-fader .fade:nth-child(2) {
+    background-image: url('/images/homebg1.avif');
+    animation-delay: -4s;
+}
+
+.home-image-fader .fade:nth-child(3) {
+    background-image: url('/images/homebg2.avif');
+    animation-delay: -8s;
+}
+
+.home-image-fader .fade:nth-child(4) {
+    background-image: url('/images/homebg1.avif');
+    animation-delay: -12s;
+}
+
+.home-image-fader .fade:nth-child(5) {
+    background-image: url('/images/homebg2.avif');
+    animation-delay: -16s;
+}
+
+
+@keyframes home-image-fader-a {
+
+    0%,
+    15%,
+    100% {
+        opacity: 1;
+        animation-timing-function: ease;
+        z-index: 0;
+    }
+
+    20% {
+        opacity: 0;
+        animation-timing-function: step-end;
+        z-index: 0;
+    }
+
+    95% {
+        opacity: 1;
+        animation-timing-function: step-end;
+        z-index: -1;
+    }
+}
 
 
 
-.home-desc{
+.home-desc {
     display: flex;
+
     // justify-content: center;
     // text-align: center;
-    span,h2{
+    span,
+    h2 {
         font-size: clamp(2.2rem, 6vw, 2.5rem);
         font-weight: 200;
         // color: black;
     }
+
     span:nth-child(1):after {
         content: "UI ";
     }
+
     span:nth-child(1):hover:after {
         content: "UX"
     }
@@ -83,6 +92,7 @@
     span:nth-child(2):after {
         content: "Designer";
     }
+
     span:nth-child(2):hover:after {
         content: "Developer"
     }
@@ -90,6 +100,7 @@
     span:nth-child(4):after {
         content: "Digital";
     }
+
     span:nth-child(4):hover:after {
         content: "Creative"
     }
@@ -97,15 +108,16 @@
     span:nth-child(5):after {
         content: "Artist";
     }
+
     span:nth-child(5):hover:after {
         content: "Direction"
     }
-    
+
 }
 
 
 
-.mid-section{
+.mid-section {
     align-items: center;
 }
 
@@ -114,8 +126,10 @@
 
 
 @media only screen and (max-width: 600px) {
-    .home-desc{
-        span,h2{
+    .home-desc {
+
+        span,
+        h2 {
             margin-top: 3rem;
             font-size: 2rem;
         }
